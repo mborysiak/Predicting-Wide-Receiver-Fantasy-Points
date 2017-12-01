@@ -8,13 +8,13 @@ This project aims to predict the fantasy football scores of NFL wide receivers. 
 - Does the model improve upon conventional wisdom, i.e. the average draft position of players.
 
 ### Key Findings
-- The final ensemble model following has an average root-mean-squared-error (RMSE) of ~2.8 fantasy points for out-of-sample data using 10-fold cross-validation. 
+- The final ensemble model has an average root-mean-squared-error (RMSE) of ~2.8 fantasy points for out-of-sample data using 10-fold cross-validation. 
 
 
-- For context of the RMSE, the top 10% of wide-receivers score ~15 fantasy points per game (FP/g), while the bottom 10% score ~8 FP/g, resulting in coefficient of variance around 15% and 33% respectively. Considering the small sample sizes for each season (16 games) and volatility of fantasy football performances, these predictions are relatively accurate.
+- For context of the RMSE, the top 10% of wide-receivers score ~15 fantasy points per game (FP/g), while the bottom 10% score ~9 FP/g, resulting in coefficient of variance around 18% and 30% respectively. Considering the small sample sizes for each season (16 games) and volatility of fantasy football performances, these predictions are relatively accurate.
 
 
-- When comparing the projected rankings of the model (ordinal values) to the average draft position ranking from ~6000 drafts, the model has 30% higher accuracy in predicting the correct ranking for holdout data.
+- When comparing the projected rankings of the model (ordinal values) to the average draft position ranking from ~6000 drafts, the model has 33% higher accuracy in predicting the correct ranking for holdout data.
 
 ### Techniques used
 - pandas and numpy for data scraping, exploration, and cleaning
